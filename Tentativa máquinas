@@ -1,0 +1,25 @@
+package rascunho;
+import java.util.*;
+
+public class Tentativa2Maquina {
+	
+	static ArrayList<String> setores = new ArrayList<>();
+	static ArrayList<String> maquinas = new ArrayList<>();
+	static ArrayList<Integer> pecas = new ArrayList<>();
+	static ArrayList<Integer> producao = new ArrayList<>();
+	static final int minProducao = 5; 
+	
+	public static void alerta(Scanner entrada) {
+		for (int i = 0; i <= maquinas.size(); i++) {
+			System.out.println("Máquina " + i + "");
+
+		if(producao.get(i) <= minProducao) {
+			System.out.println("Produção abaixo do esperado.");
+	
+		}
+		else { 
+			
+		}
+	}
+	}
+}
