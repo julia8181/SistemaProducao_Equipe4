@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+body{
+	text-align: center;
+	background-color: #2a2a2a;
+	padding: 100px;
+	font-weight: bold; 
+}
+
+h2{
+	font-family: candara;
+	text-align: center;
+	flex-wrap: nowrap;
+	color: #ffffff;
+	display: inline;
+	flex-direction: row;
+	gap: 30px;
+	max-width: 300px;
+	margin: 5px;
+	
+}
+
+.sair{
+	display: inline;
+	padding: 15px;
+	background-color: #cacaca;
+	border-radius: 10px;
+	font-size: 19px;
+	max-width: 300px;
+	text-decoration: none;
+	color: #000000;
+	gap: 20px;
+	text-align: center;
+	margin-top: 30px;
+	
+	
+}
+
+form{
+	
+	
+	
+}
